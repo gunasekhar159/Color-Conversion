@@ -102,7 +102,7 @@ cv2.destroyAllWindows()
 
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-![output](https://github.com/gunasekhar159/Color-Conversion/blob/main/ex3.jpg?raw=true)
+![output](![ex3](https://user-images.githubusercontent.com/95043391/165267991-c3da698f-f2fe-4b89-90f5-2b58c15973f5.jpg)?raw=true)
 
 ### ii) HSV to RGB and BGR
 ![output](https://github.com/gunasekhar159/Color-Conversion/blob/main/!2.jpg?raw=true)
@@ -113,7 +113,7 @@ cv2.destroyAllWindows()
 ![output](https://github.com/gunasekhar159/Color-Conversion/blob/main/!4.jpg?raw=true)
 ?
 ### v) Split and merge HSV Image
-![output](https://github.com/gunasekhar159/Color-Conversion/blob/main/!5.jpg?raw=true)
+![output](![!5](https://user-images.githubusercontent.com/95043391/165267851-9b830b15-bac8-4813-8a4c-24ec19266eac.jpg)?raw=true)
 
 
 ## Result:
