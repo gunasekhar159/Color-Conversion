@@ -38,12 +38,12 @@ gray_image1 = cv2.cvtColor (house_color_image, cv2.COLOR_RGB2GRAY)
 cv2.imshow('RGB2GRAY', gray_image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-```
+
 
 
 
 # ii)Convert HSV to RGB and BGR
-```
+
 import cv2
 house_HSV_image= cv2.imread('house.jpg')
 cv2.imshow('Original HSV image',house_HSV_image)
@@ -53,12 +53,12 @@ BGR_image = cv2.cvtColor(house_HSV_image, cv2.COLOR_HSV2BGR)
 cv2.imshow('HSV to BGR',BGR_image)
 cv2.waitKey(0)
 cv2.destroyAllwindows()
-```
+
 
 
 
 # iii)Convert RGB and BGR to YCrCb
-```
+
 import cv2
 houseImage = cv2.imread('house.jpg')
 cv2.imshow('Original HSV Image',houseImage)
@@ -68,11 +68,11 @@ YCrCb_image1 = cv2.cvtColor(houseImage, cv2.COLOR_BGR2YCrCb)
 cv2.imshow('RGB2HSV',YCrCb_image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-```
+
 
 
 # iv)Split and Merge RGB Image
-```
+
 import cv2
 image = cv2.imread('house.jpg')
 blue = image[:,:,0]
@@ -85,11 +85,10 @@ mergeBgr = cv2.merge((blue,green,red))
 cv2.imshow('Merged BGR image',mergeBgr)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-```
 
 
 # v) Split and merge HSV Image
-```
+
 import cv2
 image = cv2.imread('house.jpg')
 hsv = cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
