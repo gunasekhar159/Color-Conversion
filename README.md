@@ -19,12 +19,12 @@ Show the image stored in the given variable.
 
 ### Step5:
 Destroy all the windows and end the program.
-
-## Program:
-# Developed BY:M.GUNASEKHAR
-# Register Number:212221240014
-# i) Convert BGR and RGB to HSV and GRAY
 ```
+## Program:
+ Developed BY:M.GUNASEKHAR
+ Register Number:212221240014
+# i) Convert BGR and RGB to HSV and GRAY
+
 import cv2
 house_color_image= cv2.imread('house.jpg')
 cv2.imshow ('Original image', house_color_image)
